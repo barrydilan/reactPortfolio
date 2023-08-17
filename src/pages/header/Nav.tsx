@@ -1,8 +1,6 @@
-import React from 'react'
-
 export default function Nav() {
   return (
-    <ul>
+    <ul className="flex gap-8 hidden">
       <li>About</li>
       <li>Projects</li>
       <li>Contact me</li>

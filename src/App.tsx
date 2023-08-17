@@ -6,12 +6,16 @@ import Projects from "./pages/projects/Projects";
 
 export default function App() {
 	return (
-		<>
+		<div className="bg-blue-500 h-full">
 			<Header></Header>
-			<Hero></Hero>
-			<About></About>
-			<Projects></Projects>
-			<Footer></Footer>
-		</>
+			<main>
+				<Hero></Hero>
+				<About></About>
+				<Projects></Projects>
+			</main>
+			<footer>
+				<Footer></Footer>
+			</footer>
+		</div>
 	);
 }
