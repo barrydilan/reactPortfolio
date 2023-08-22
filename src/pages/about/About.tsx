@@ -5,11 +5,11 @@ import diploma from '../../assets/svg/diploma.svg'
 export default function About() {
 	return (
 		<section className="mt-10 p-6">
-			<h3 className="text-base">
+			<h2 className="text-xl">
 				About Me
-			</h3>
+			</h2>
 			<div className="mt-6 flex flex-col items-center gap-5">
-				<div className="bg-black rounded-full w-40 h-40 mt-6"></div>
+				<div className="bg-primary rounded-full w-40 h-40 mt-6"></div>
 				<p className="text-base mt-6">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
 					reprehenderit aperiam pariatur dolorum laboriosam facere explicabo
