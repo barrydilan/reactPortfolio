@@ -37,14 +37,6 @@ export default function About() {
 						text="Russian, Ukrainian - native"
 					></ListItem>
 				</ul>
-				{/* <ul className="grid grid-cols-2 gap-x-8 gap-y-4">
-          <li>TypeScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>Redux</li>
-          <li>Git</li>
-        </ul> */}
 			</div>
 		</section>
 	);
