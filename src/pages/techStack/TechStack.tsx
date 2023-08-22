@@ -3,8 +3,8 @@ import RoundSpan from "../../shared/RoundSpan";
 export default function TechStack() {
 	return (
 		<div className="mt-10 p-6">
-			<h3>Technologies</h3>
-			<div className="mt-3 flex gap-2 flex-wrap">
+			<h2 className="text-xl">Technologies</h2>
+			<div className="mt-6 flex gap-1 flex-wrap">
 				<RoundSpan text="TypeScript" />
 				<RoundSpan text="JavaScript" />
 				<RoundSpan text="React" />
@@ -12,8 +12,8 @@ export default function TechStack() {
 				<RoundSpan text="SCSS" />
 				<RoundSpan text="HTML" />
 				<RoundSpan text="Framer Motion" />
+        <RoundSpan text="Ecommerce" />
 				<RoundSpan text="Git" />
-				<RoundSpan text="Ecommerce" />
 			</div>
 		</div>
 	);
