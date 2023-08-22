@@ -6,7 +6,7 @@ import TechStack from "./pages/techStack/TechStack";
 
 export default function App() {
 	return (
-		<div className="bg-blue-600">
+		<div className="bg-main">
       <Hero />
       <About />
       <TechStack />
