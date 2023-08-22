@@ -12,10 +12,10 @@ export default {
       xl: '1440px',
     },
     colors: {
-      'main': '#F2EFDF',
-      'primary': 'rgba(0, 0, 0, 0.8)',
+      'main': '#FBFCF8',
+      'primary': 'rgba(0, 0, 0, 0.5)',
       'accent': 'rgba(239,95,99, 1)',
-      'orange': '#ff7849',
+      'primary-1': 'rgba(0, 0, 0, 1)',
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',

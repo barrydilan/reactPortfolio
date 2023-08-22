@@ -5,6 +5,10 @@
   html {
     @apply text-primary;
   }
+
+  h2 {
+    @apply text-primary-1 tracking-wider; 
+  }
 }
 
 * {
