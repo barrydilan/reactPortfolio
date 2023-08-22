@@ -1,19 +1,13 @@
-import { IconType } from "react-icons";
-import { IconContext } from "react-icons";
-
-
 interface IListItem {
-	icon: IconType;
-	text: string;
+  text: string,
+  icon: string
 }
 
 export default function ListItem(props: IListItem) {
 	return (
-    <IconContext.Provider value={{ color: "white", className: "w-6 h-6" }}>
-		<li className="flex items-center gap-4 p-2">
-			<span><props.icon /></span>
+		<li className="flex items-center justify-start gap-4 p-2">
+			<img className='w-6 h-6' src={props.icon} alt="icon" />
 			<span className="text-sm">{props.text}</span>
 		</li>
-    </IconContext.Provider>
 	);
 }

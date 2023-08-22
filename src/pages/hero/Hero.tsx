@@ -2,8 +2,9 @@ import github from '../../assets/svg/github.svg'
 import linkedin from '../../assets/svg/linkedin.svg'
 
 export default function Hero() {
+  console.log(github)
   return (
-    <section className='mt-10 p-6 flex flex-col '>
+    <section className='p-6 pt-20 flex flex-col '>
       <h3 className='text-base'>Hi, my name is</h3>
       <h2 className='text-2xl'>Harry Holubiev</h2>
       <h2 className='text-2xl'>I am a Frontend Developer</h2>
