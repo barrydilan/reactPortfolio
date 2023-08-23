@@ -3,7 +3,7 @@ import sushiSushiImg from '../../assets/img/sushisushi.png'
 
 export default function Projects() {
 	return (
-		<section className="mt-10 p-6">
+		<section className="mt-10 p-6 sm:p-10">
 			<h2>Projects</h2>
 			<ProjectCard
 				title="SushiSushi"

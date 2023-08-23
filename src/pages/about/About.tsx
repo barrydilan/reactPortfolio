@@ -4,7 +4,7 @@ import diploma from "../../assets/svg/diploma.svg";
 
 export default function About() {
 	return (
-		<section className="mt-10 p-6">
+		<section className="mt-10 p-6 sm:p-10">
 			<h2>About Me</h2>
 			<div className="mt-6 flex flex-col items-center gap-5">
 				<div className="sm:grow">

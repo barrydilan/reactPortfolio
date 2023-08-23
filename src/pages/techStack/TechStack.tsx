@@ -2,7 +2,7 @@ import RoundSpan from "../../shared/RoundSpan";
 
 export default function TechStack() {
 	return (
-		<div className="mt-10 p-6">
+		<div className="mt-10 p-6 sm:p-10">
 			<h2>Technologies</h2>
 			<div className="mt-6 flex flex-wrap sm:justify-start">
         <RoundSpan text="React" />
