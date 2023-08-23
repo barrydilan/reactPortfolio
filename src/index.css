@@ -3,11 +3,11 @@
 @tailwind utilities;
 @layer base {
   html {
-    @apply text-primary;
+    @apply text-primary sm:text-lg;
   }
 
   h2 {
-    @apply text-primary-1 tracking-wider; 
+    @apply text-primary-1 tracking-wider text-xl sm:text-2xl; 
   }
 }
 

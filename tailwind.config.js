@@ -15,7 +15,7 @@ export default {
       'main': '#FBFCF8',
       'primary': 'rgba(0, 0, 0, 0.5)',
       'accent': 'rgba(239,95,99, 1)',
-      'primary-1': 'rgba(0, 0, 0, 1)',
+      'primary-1': 'rgba(0, 0, 0, 0.7)',
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
