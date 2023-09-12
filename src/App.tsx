@@ -6,14 +6,16 @@ import TechStack from "./pages/techStack/TechStack";
 
 export default function App() {
 	return (
-		<div className="bg-main md:grid md:grid-cols-2">
-			<Hero />
-			<div>
-				<About />
-				<TechStack />
-				<Projects />
+		<div className="bg-main">
+			<div className="md:grid md:grid-cols-2 max-w-screen-xl mx-auto">
+				<Hero />
+				<div className="">
+					<About />
+					<TechStack />
+					<Projects />
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</div>
 	);
 }

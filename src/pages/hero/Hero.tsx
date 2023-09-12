@@ -4,8 +4,8 @@ import linkedin from '../../assets/svg/linkedin.svg'
 export default function Hero() {
   console.log(github)
   return (
-    <section className='md:relative'>
-      <div className='sm:p-10 p-6 pt-20 flex flex-col md:fixed md:w-1/2'>
+    <section className='md:px-4 md:w-full'>
+      <div className='sm:p-10 p-6 pt-20 flex flex-col md:fixed'>
       <h3 className='text-base sm:text-lg'>Hi, my name is</h3>
       <h2 className='text-2xl sm:text-4xl text-accent font-bold'>Harry Holubiev</h2>
       <h2 className='text-2xl  sm:text-4xl text-primary font-light'>I am a <span className='text-accent font-bold'>Frontend Developer</span></h2>
