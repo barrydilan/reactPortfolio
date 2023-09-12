@@ -9,7 +9,7 @@ export default function App() {
 		<div className="bg-main">
 			<div className="md:grid md:grid-cols-2 max-w-screen-xl mx-auto">
 				<Hero />
-				<div className="">
+				<div className="max-w-screen-md">
 					<About />
 					<TechStack />
 					<Projects />

@@ -6,10 +6,10 @@ export default function About() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
 			<h2>About Me</h2>
-			<div className="mt-6 flex flex-col items-center gap-5">
+			<div className="mt-6 flex flex-col items-center md:items-start gap-5">
 				<div className="sm:grow md:flex md:flex-col">
 					<div className="bg-primary rounded-full w-40 h-40 mt-6 mx-auto md:max-w-[180px] md:w-full"></div>
-					<ul className="mt-6 flex flex-col sm:flex-row flex-wrap md:flex-shrink">
+					<ul className="mt-6 flex flex-col sm:flex-row md:flex-col flex-wrap md:flex-shrink">
 						<ListItem
 							icon={diploma}
 							text="ONMU, Mechanical Engineering B.Sc., 2018 - 2022"
