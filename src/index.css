@@ -9,6 +9,10 @@
   h2 {
     @apply text-primary-1 tracking-wider text-xl sm:text-2xl; 
   }
+
+  strong {
+    @apply text-accent
+  }
 }
 
 * {
