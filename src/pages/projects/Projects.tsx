@@ -4,7 +4,7 @@ import sushiSushiImg from '../../assets/img/sushisushi.png'
 export default function Projects() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
-			<h2 className="font-light">Projects</h2>
+			<h2 className="font-light sticky top-0 bg-main pt-4">Projects</h2>
 			<ul className="mt-8">
       <ProjectCard
 				title="SushiSushi - Online Food Delivery App"

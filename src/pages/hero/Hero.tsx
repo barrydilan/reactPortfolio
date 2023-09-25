@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <section className='md:px-4'>
       <div className='sm:p-10 md:pt-20 p-6 flex gap-y-1 flex-col md:sticky md:top-0 w-full'>
-      <h3 className='text-base sm:text-4xl font-light sm:leading-10 sm:tracking-wider '>Hi, my name is</h3>
-      <h2 className='text-2xl sm:text-4xl text-accent font-bold'>Harry Holubiev</h2>
-      <h2 className='text-2xl sm:text-4xl text-primary font-light'>I am a <span className='text-accent font-bold'>Frontend Developer</span></h2>
+      <h3 className='text-2xl sm:text-4xl font-light sm:leading-10 sm:tracking-wider'>Hi, my name is</h3>
+      <h2 className='text-4xl sm:text-4xl text-accent font-bold'>Harry Holubiev</h2>
+      <h2 className='text-4xl sm:text-4xl text-primary font-light'>I am a <span className='text-accent font-bold'>Frontend Developer</span></h2>
       <div className='flex gap-2 mt-2'>
         <img src={github} className='w-8 h-8' alt="Github Link" />
         <img src={linkedin} className='w-8 h-8' alt="LinkedIn Link" />
