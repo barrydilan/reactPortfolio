@@ -12,10 +12,10 @@ export default {
       xl: '1440px',
     },
     colors: {
-      'main': 'rgba(251,252,248, 1)',
-      'primary': 'rgba(0, 0, 0, 0.5)',
-      'accent': 'rgba(239,95,99, 1)',
-      'primary-1': 'rgba(0, 0, 0, 0.7)',
+      'main': '#253069',
+      'primary': 'rgba(255, 255, 255, 0.8)',
+      'accent': '#D6372E',
+      'primary-1': 'rgba(255, 255, 255)',
       'green': '#13ce66',
       'yellow': '#ffc82c',
       'gray-dark': '#273444',
@@ -23,7 +23,7 @@ export default {
       'gray-light': '#d3dce6',
     },
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
+      sans: ['Lato', 'sans-serif'],
     },
     extend: {
       spacing: {

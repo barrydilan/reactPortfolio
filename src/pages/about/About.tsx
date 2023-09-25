@@ -5,7 +5,7 @@ import diploma from "../../assets/svg/diploma.svg";
 export default function About() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
-			<h2>About Me</h2>
+			<h2 className="font-light">About Me</h2>
 			<div className="mt-6 flex flex-col items-center md:items-start gap-5">
 				<div className="sm:grow md:flex md:flex-col">
 					<div className="bg-primary rounded-full w-40 h-40 mt-6 mx-auto md:max-w-[180px] md:w-full"><img className="w-full h-full object-cover rounded-full" src="src/assets/img/photo.jpeg" alt="" /></div>
@@ -23,7 +23,7 @@ export default function About() {
 						></ListItem>
 					</ul>
 				</div>
-				<p className="text-base mt-6 sm:flex-none md:flex-auto self-end">
+				<p className="text-base font-light mt-6 sm:flex-none md:flex-auto self-end">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
 					reprehenderit aperiam pariatur dolorum laboriosam facere explicabo
 					enim ad rem reiciendis voluptatum iure, impedit ipsa sequi architecto

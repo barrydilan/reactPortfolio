@@ -12,8 +12,8 @@ export default function ProjectCard(props: IProjectCardProps) {
       <div className="flex flex-col items-start gap-4">
 			<img className="inline-block max-w-[200px]" src={props.imgSrc} alt="projectScreenshot"></img>
       <div>
-				<h3 className="text-lg mb-4">{props.title}</h3>
-				<p className="text-sm">{props.text}</p>
+				<h3 className="text-lg mb-4 font-light">{props.title}</h3>
+				<p className="text-sm font-light leading-5">{props.text}</p>
 			</div>
       </div>
 			<div className="">
