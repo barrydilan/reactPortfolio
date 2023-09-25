@@ -20,7 +20,7 @@ const projectLinkSvg = (
 
 export default function ProjectCard(props: IProjectCardProps) {
 	return (
-		<li className="flex flex-col gap-y-6 group hover:bg-primary/5 hover:backdrop-blur-2xl p-4 transition duration-700">
+		<li className="flex flex-col gap-y-6 group hover:bg-primary/5 hover:backdrop-blur-2xl hover:cursor-pointer rounded-md p-4 transition duration-700">
 			<div className="">
 				<div className="flex flex-col items-start gap-4">
 					<img

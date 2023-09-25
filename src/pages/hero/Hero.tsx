@@ -40,8 +40,8 @@ export default function Hero() {
 					<span className="text-accent font-bold">Frontend Developer</span>
 				</h2>
 				<div className="flex gap-2 mt-8">
-					<a href="http://github.com/barrydilan"><img src={github} className="w-8 h-8 hover:cursor-pointer" alt="Github Link" /></a>
-					<a href="http://linkedin.com/in/barrydilan"><img src={linkedin} className="w-8 h-8 hover:cursor-pointer" alt="LinkedIn Link" /></a>
+					<a href="http://github.com/barrydilan"><img src={github} className="w-8 h-8" alt="Github Link" /></a>
+					<a href="http://linkedin.com/in/barrydilan"><img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" /></a>
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">
 					<button className="p-2 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out flex items-center gap-x-2 sm:flex-auto sm:p-2.5 sm:text-sm rounded-full bg-accent font-light flex-1 lg:text-lg text-primary mt-4">

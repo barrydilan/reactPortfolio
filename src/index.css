@@ -13,6 +13,18 @@
   strong {
     @apply text-accent
   }
+
+  a {
+    cursor: pointer;
+  }
+
+  ::selection {
+    @apply bg-accent
+  }
+
+  ::selection strong {
+    @apply bg-primary
+  }
 }
 
 * {
