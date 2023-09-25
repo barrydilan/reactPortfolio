@@ -9,10 +9,10 @@ interface IProjectCardProps {
 export default function ProjectCard(props: IProjectCardProps) {
 	return (
 		<li className="flex flex-col gap-y-6">  
-      <div className="flex items-center gap-x-4">
+      <div className="flex flex-col items-start gap-4">
 			<img className="inline-block max-w-[200px]" src={props.imgSrc} alt="projectScreenshot"></img>
-      <div className="max-w-[250px]">
-				<h3 className="text-lg">{props.title}</h3>
+      <div>
+				<h3 className="text-lg mb-4">{props.title}</h3>
 				<p className="text-sm">{props.text}</p>
 			</div>
       </div>

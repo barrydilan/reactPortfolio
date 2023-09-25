@@ -8,7 +8,7 @@ export default function About() {
 			<h2>About Me</h2>
 			<div className="mt-6 flex flex-col items-center md:items-start gap-5">
 				<div className="sm:grow md:flex md:flex-col">
-					<div className="bg-primary rounded-full w-40 h-40 mt-6 mx-auto md:max-w-[180px] md:w-full"></div>
+					<div className="bg-primary rounded-full w-40 h-40 mt-6 mx-auto md:max-w-[180px] md:w-full"><img className="w-full h-full object-cover rounded-full" src="src/assets/img/photo.jpeg" alt="" /></div>
 					<ul className="mt-6 flex flex-col sm:flex-row md:flex-col flex-wrap md:flex-shrink">
 						<ListItem
 							icon={diploma}
