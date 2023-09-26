@@ -12,9 +12,9 @@ export default {
       xl: '1440px',
     },
     colors: {
-      'main': '#253069',
-      'primary': 'rgba(255, 255, 255, 0.8)',
-      'accent': '#D6372E',
+      'main': 'rgba(0, 0, 45, 1)',
+      'primary': 'rgba(255, 255, 255, 0.7)',
+      'accent': 'rgba(210, 46, 255, 1)',
       'primary-1': 'rgba(255, 255, 255)',
       'green': '#13ce66',
       'yellow': '#ffc82c',

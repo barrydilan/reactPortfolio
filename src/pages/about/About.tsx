@@ -9,7 +9,8 @@ export default function About() {
 				<p className="text-base font-[300] mt-6 sm:flex-none md:flex-auto self-end">
           Hi, my name is Harry! I am a <strong>Frontend Web Developer</strong> based in <strong>Hamburg</strong>, Germany.
           My passion lies in coding, design, and technology, all geared towards creating exceptional user experiences. 
-					In 2022, I have graduated from a univercity with a Bachelor's degree in Mechanical Engineering. Since then, I've been on an exciting journey in the tech industry.
+					<br /> In 2022, I have graduated from a university with a Bachelor's degree in Mechanical Engineering. Since then, I've been on an exciting journey in the tech industry.
+          <br />
           I speak <strong>English (C1)</strong>, and <strong>German (B1)</strong>, while <strong>Russian</strong> and <strong>Ukrainian</strong> are my native languages.
 				</p>
 			</div>
