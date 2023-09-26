@@ -19,11 +19,19 @@
   }
 
   ::selection {
-    @apply bg-accent
+    @apply bg-accent text-main
+  }
+
+  .hero-h2 {
+    @apply decoration-solid decoration-4 underline-offset-4 underline decoration-selection/0
+  }
+
+  ::selection .hero-h2 {
+    @apply bg-main text-accent
   }
 
   ::selection strong {
-    @apply bg-primary
+    @apply bg-none
   }
 }
 
