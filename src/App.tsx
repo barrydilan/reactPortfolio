@@ -7,7 +7,7 @@ import TechStack from "./components/techStack/TechStack";
 export default function App() {
 	return (
 		<div className="bg-main">
-			<div className="md:grid md:grid-cols-2 max-w-screen-xl mx-auto">
+			<div className="md:grid md:grid-cols-2 max-w-screen-xl mx-auto lg:px-20">
 				<Hero />
 				<div className="max-w-screen-md">
 					<About />

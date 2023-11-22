@@ -11,7 +11,7 @@
   }
 
   strong {
-    @apply text-accent cursor-pointer
+    @apply text-accent cursor-pointer hover:underline transition hover:underline-offset-4
   }
 
   a {

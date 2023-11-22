@@ -4,6 +4,7 @@ interface IProjectCardProps {
 	title: string;
 	text: string;
 	imgSrc: string;
+  technologies: string[];
 }
 
 const projectLinkSvg = (
@@ -36,10 +37,9 @@ export default function ProjectCard(props: IProjectCardProps) {
 					</div>
 				</div>
 				<div className="mt-4">
-					<RoundSpan text="React" />
-					<RoundSpan text="Tailwind" />
-					<RoundSpan text="TypeScript" />
-					<RoundSpan text="Ecommerce" />
+					{props.technologies.map((technologie) => (
+            <RoundSpan text={technologie}/>
+          ))}
 				</div>
 			</div>
 		</li>

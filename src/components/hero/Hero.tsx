@@ -38,21 +38,29 @@ export default function Hero() {
 				</h2>
 				<h2 className="text-4xl sm:text-4xl text-primary font-light">
 					I am a{" "}
-					<span className="text-accent font-bold hero-h2">Frontend Developer</span>
+					<span className="text-accent font-bold hero-h2">
+						Frontend Developer
+					</span>
 				</h2>
 				<div className="flex gap-2 mt-8">
-					<a href="http://github.com/barrydilan"><img src={github} className="w-8 h-8" alt="Github Link" /></a>
-					<a href="http://linkedin.com/in/barrydilan"><img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" /></a>
+					<a href="http://github.com/barrydilan">
+						<img src={github} className="w-8 h-8" alt="Github Link" />
+					</a>
+					<a
+						href="www.linkedin.com/in/harry-holubiev-2a3188221"
+					>
+						<img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" />
+					</a>
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">
-          <HeroBtn>
-            <span className="hidden sm:block">Download</span> CV
+					<HeroBtn>
+						<span className="hidden sm:block">Download</span> CV
 						{downladSVG}
-          </HeroBtn>
-          <HeroBtn>
-          Contact Me
+					</HeroBtn>
+					<HeroBtn>
+						Contact Me
 						{contactSVG}
-          </HeroBtn>
+					</HeroBtn>
 				</div>
 			</div>
 		</section>

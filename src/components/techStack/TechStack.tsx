@@ -7,6 +7,8 @@ export default function TechStack() {
       <SectionTitle className={"z-10"}>Technologies</SectionTitle>
 			<div className="mt-6 flex flex-wrap sm:justify-start">
         <RoundSpan text="React" />
+        <RoundSpan text="React Router" />
+        <RoundSpan text="Next JS" />
 				<RoundSpan text="TypeScript" />
 				<RoundSpan text="JavaScript" />
         <RoundSpan text="Tailwind CSS" />
