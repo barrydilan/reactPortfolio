@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer base {
   html {
-    @apply text-primary sm:text-lg;
+    @apply text-primary sm:text-lg bg-main;
   }
   
   h2 {
@@ -11,7 +11,7 @@
   }
 
   strong {
-    @apply text-accent
+    @apply text-accent cursor-pointer
   }
 
   a {
@@ -23,7 +23,7 @@
   }
 
   .hero-h2 {
-    @apply decoration-solid decoration-4 underline-offset-4 underline decoration-selection/0
+    @apply decoration-solid decoration-4 underline-offset-4 underline decoration-selection/0 text-primary/100
   }
 
   ::selection .hero-h2 {

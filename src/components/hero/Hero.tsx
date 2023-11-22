@@ -1,5 +1,6 @@
 import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
+import HeroBtn from "./ui/HeroBtn";
 
 const downladSVG = (
 	<svg
@@ -44,14 +45,14 @@ export default function Hero() {
 					<a href="http://linkedin.com/in/barrydilan"><img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" /></a>
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">
-					<button className="p-2 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out flex items-center gap-x-2 sm:flex-auto sm:p-2.5 sm:text-sm rounded-full bg-accent flex-1 lg:text-lg font-medium text-main mt-4">
-						Download CV
+          <HeroBtn>
+            <span className="hidden sm:block">Download</span> CV
 						{downladSVG}
-					</button>
-					<button className="p-2 transform translate-y-4 hover:translate-y-0 duration-500 ease-in-out flex items-center gap-x-2 sm:flex-auto sm:p-2.5 sm:text-sm rounded-full bg-accent flex-1 lg:text-lg font-medium text-main mt-4">
-						Contact Me
+          </HeroBtn>
+          <HeroBtn>
+          Contact Me
 						{contactSVG}
-					</button>
+          </HeroBtn>
 				</div>
 			</div>
 		</section>

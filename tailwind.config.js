@@ -14,7 +14,7 @@ export default {
     colors: {
       'main': 'rgba(34, 34, 67, 1)',
       'primary': 'rgba(255, 255, 255, 0.7)',
-      'accent': 'rgba(130, 255, 190, 1)',
+      'accent': 'rgba(130, 255, 190, 0.9)',
       'primary-1': 'rgba(255, 255, 255)',
       'green': '#13ce66',
       'selection': 'rgba(254, 95, 87, 0.6)',
