@@ -1,10 +1,11 @@
 import ProjectCard from "./ProjectCard";
 import sushiSushiImg from '../../assets/img/sushisushi.png'
+import SectionTitle from "../../shared/SectionTitle";
 
 export default function Projects() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
-			<h2 className="font-light sticky top-0 bg-main pt-4">Projects</h2>
+      <SectionTitle>Projects</SectionTitle>
 			<ul className="mt-8">
       <a href="https://github.com/barrydilan/eCommerce-Application">
       <ProjectCard

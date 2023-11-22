@@ -28,7 +28,7 @@ const contactSVG = (
 
 export default function Hero() {
 	return (
-		<section className="md:px-4">
+		<section className="md:px-4 pt-10">
 			<div className="sm:p-10 md:pt-20 p-6 flex gap-y-1 flex-col md:sticky md:top-0 w-full">
 				<h3 className="text-2xl sm:text-4xl font-light sm:leading-10 sm:tracking-wider">
 					Hi, my name is

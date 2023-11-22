@@ -1,9 +1,10 @@
 import RoundSpan from "../../shared/RoundSpan";
+import SectionTitle from "../../shared/SectionTitle";
 
 export default function TechStack() {
 	return (
 		<div className="mt-10 p-6 sm:p-10">
-			<h2 className="font-light sticky top-0 bg-main pt-4 z-10 ">Technologies</h2>
+      <SectionTitle className={"z-10"}>Technologies</SectionTitle>
 			<div className="mt-6 flex flex-wrap sm:justify-start">
         <RoundSpan text="React" />
 				<RoundSpan text="TypeScript" />

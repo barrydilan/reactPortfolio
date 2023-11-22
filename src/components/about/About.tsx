@@ -1,7 +1,9 @@
+import SectionTitle from "../../shared/SectionTitle";
+
 export default function About() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
-			<h2 className="font-light sticky top-0 bg-main pt-4">About Me</h2>
+			<SectionTitle>About Me</SectionTitle>
 			<div className="mt-6 flex flex-col items-center md:items-start gap-5">
 				<div className="sm:grow md:flex md:flex-col">
 					<div className="bg-primary rounded-full w-40 h-40 mt-6 mx-auto md:max-w-[200px] md:max-h-[200px]"><img className="w-full h-full object-cover rounded-full" src="src/assets/img/photo.jpeg" alt="" /></div>

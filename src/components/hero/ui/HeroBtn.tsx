@@ -1,8 +1,4 @@
-import { ReactNode } from "react";
-
-interface IChildren {
-  children: ReactNode;
-}
+import { IChildren } from "../../../types";
 
 export default function HeroBtn ({children} : IChildren) {
   return (
