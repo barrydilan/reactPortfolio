@@ -2,7 +2,7 @@ import SectionTitle from "../../shared/SectionTitle";
 
 export default function About() {
 	return (
-		<section className="mt-10 p-6 sm:p-10">
+		<section className="mt-16 p-6 sm:p-10">
 			<SectionTitle>About Me</SectionTitle>
 			<div className="mt-6 flex flex-col items-center md:items-start gap-5">
 				<div className="sm:grow md:flex md:flex-col">
@@ -13,7 +13,7 @@ export default function About() {
           My passion lies in coding, design, and technology, all geared towards creating exceptional user experiences. 
 					<br /> In 2022, I have graduated from a university with a Bachelor's degree in Mechanical Engineering. Since then, I've been on an exciting journey in the tech industry.
           <br />
-          I speak <strong>English (C1)</strong>, and <strong>German (B1)</strong>, while <strong>Russian</strong> and <strong>Ukrainian</strong> are my native languages.
+          I speak <strong>English (C1)</strong>, and <strong>German (B1)</strong>, <strong>Russian</strong> and <strong>Ukrainian</strong> are my native languages.
 				</p>
 			</div>
 		</section>

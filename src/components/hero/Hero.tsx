@@ -27,6 +27,14 @@ const contactSVG = (
 );
 
 export default function Hero() {
+  const downloadCv = () => {
+    window.open("../../src/assets/cv.pdf", "_blank");
+  };
+  const sendEmail = () => {
+    const mailto = "mailto:queharambe@gmail.com"
+    window.location.href = mailto;
+  };
+
 	return (
 		<section className="md:px-4 pt-10">
 			<div className="sm:p-10 md:pt-20 p-6 flex gap-y-1 flex-col md:sticky md:top-0 w-full">
@@ -47,17 +55,17 @@ export default function Hero() {
 						<img src={github} className="w-8 h-8" alt="Github Link" />
 					</a>
 					<a
-						href="www.linkedin.com/in/harry-holubiev-2a3188221"
+						href="http://linkedin.com/in/harry-holubiev-2a3188221"
 					>
 						<img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" />
 					</a>
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">
-					<HeroBtn>
+					<HeroBtn onClick={downloadCv}>
 						<span className="hidden sm:block">Download</span> CV
 						{downladSVG}
 					</HeroBtn>
-					<HeroBtn>
+					<HeroBtn onClick={sendEmail}>
 						Contact Me
 						{contactSVG}
 					</HeroBtn>

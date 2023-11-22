@@ -31,7 +31,7 @@ const PROJECTS = [
 export default function Projects() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
-			<SectionTitle>Projects</SectionTitle>
+			<SectionTitle className="relative z-10 pb-10 mb-0">Projects</SectionTitle>
 			<ul className="mt-8 flex flex-col gap-y-4">
 				{PROJECTS.map((project) => (
 					<a href={project.githubSrc}>
