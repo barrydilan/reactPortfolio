@@ -13,18 +13,16 @@ const lngs = {
 
 export default function App() {
   const { i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
+
 	return (
 		<Suspense fallback="loading">
       <div className="bg-main">
 			<div className="md:grid md:grid-cols-2 max-w-screen-xl mx-auto lg:px-20">
-				<Hero />
-        <div>
-          {Object.keys(lngs).map((lng) => (
-            <button key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-              {lngs[lng].nativeName}
-            </button>
-          ))}
-        </div>
+				<Hero changeLanguage={changeLanguage} lngs={lngs} i18n={i18n}  />
 				<div className="max-w-screen-md">
 					<About />
 					<TechStack />

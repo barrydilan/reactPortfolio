@@ -9,5 +9,11 @@
     "developer": "Frontend Developer",
     "downloadBtn": "Download CV",
     "contactBtn": "Contact Me"
+  },
+  "projects": {
+    "sectionTitle": "Projects"
+  },
+  "technologies": {
+    "sectionTitle": "Technologies"
   }
 }

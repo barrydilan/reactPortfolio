@@ -1,8 +1,7 @@
-import { useTranslation } from "react-i18next";
 import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
 import HeroBtn from "./ui/HeroBtn";
-import { t } from "i18next";
+import { i18n, t } from "i18next";
 
 const downladSVG = (
 	<svg
@@ -28,7 +27,13 @@ const contactSVG = (
 	</svg>
 );
 
-export default function Hero() {
+interface HeroProps {
+  changeLanguage: (lng: string) => void;
+  lngs: { [key: string]: { nativeName: string } };
+  i18n: i18n;
+}
+
+export default function Hero({changeLanguage, lngs, i18n }: HeroProps) {
 
   const downloadCv = () => {
     window.open("../../src/assets/cv.pdf", "_blank");
@@ -62,6 +67,18 @@ export default function Hero() {
 					>
 						<img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" />
 					</a>
+          <div>
+          {Object.keys(lngs).map((lng) => (
+        <button
+          key={lng}
+          style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }}
+          type="button"
+          onClick={() => changeLanguage(lng)}
+        >
+          {lngs[lng].nativeName}
+        </button>
+      ))}
+        </div>
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">
 					<HeroBtn onClick={downloadCv}>

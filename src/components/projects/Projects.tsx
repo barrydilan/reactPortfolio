@@ -3,6 +3,7 @@ import sushiSushiImg from "../../assets/img/sushisushi.png";
 import wernerImg from "../../assets/img/werner.png"
 import pickAMeal from "../../assets/img/pickAMeal.png"
 import SectionTitle from "../../shared/SectionTitle";
+import { t } from "i18next";
 
 const PROJECTS = [
 	{
@@ -31,7 +32,7 @@ const PROJECTS = [
 export default function Projects() {
 	return (
 		<section className="mt-10 p-6 sm:p-10">
-			<SectionTitle className="relative z-10 pb-10 mb-0">Projects</SectionTitle>
+			<SectionTitle className="relative z-10 pb-10 mb-0">{t("projects.sectionTitle")}</SectionTitle>
 			<ul className="mt-8 flex flex-col gap-y-4">
 				{PROJECTS.map((project) => (
 					<a href={project.githubSrc}>
