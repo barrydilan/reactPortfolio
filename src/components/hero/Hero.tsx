@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
 import HeroBtn from "./ui/HeroBtn";
+import { t } from "i18next";
 
 const downladSVG = (
 	<svg
@@ -27,6 +29,7 @@ const contactSVG = (
 );
 
 export default function Hero() {
+
   const downloadCv = () => {
     window.open("../../src/assets/cv.pdf", "_blank");
   };
@@ -39,15 +42,15 @@ export default function Hero() {
 		<section className="md:px-4 pt-10">
 			<div className="sm:p-10 md:pt-20 p-6 flex gap-y-1 flex-col md:sticky md:top-0 w-full">
 				<h3 className="text-2xl sm:text-4xl font-light sm:leading-10 sm:tracking-wider">
-					Hi, my name is
+					{t("hero.h3")}
 				</h3>
 				<h2 className="text-4xl sm:text-4xl hero-h2 text-accent font-bold">
 					Harry Holubiev
 				</h2>
 				<h2 className="text-4xl sm:text-4xl text-primary font-light">
-					I am a{" "}
+					{t('hero.iAm')}&nbsp;
 					<span className="text-accent font-bold hero-h2">
-						Frontend Developer
+					{t('hero.developer')}
 					</span>
 				</h2>
 				<div className="flex gap-2 mt-8">
@@ -62,11 +65,11 @@ export default function Hero() {
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">
 					<HeroBtn onClick={downloadCv}>
-						<span className="hidden sm:block">Download</span> CV
+						<span className="hidden sm:block">{t("hero.downloadBtn")}</span>
 						{downladSVG}
 					</HeroBtn>
 					<HeroBtn onClick={sendEmail}>
-						Contact Me
+          {t("hero.contactBtn")}
 						{contactSVG}
 					</HeroBtn>
 				</div>
