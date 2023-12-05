@@ -21,7 +21,7 @@ export default function App() {
 	return (
 		<Suspense fallback="loading">
       <div className="bg-main">
-			<div className="md:grid md:grid-cols-2 max-w-screen-xl mx-auto lg:px-20">
+			<div className="md:grid md:grid-cols-2 max-w-screen-lg mx-auto lg:px-4">
 				<Hero changeLanguage={changeLanguage} lngs={lngs} i18n={i18n}  />
 				<div className="max-w-screen-md">
 					<About />

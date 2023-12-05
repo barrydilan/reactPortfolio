@@ -46,7 +46,7 @@ export default function Hero({changeLanguage, lngs, i18n }: HeroProps) {
 
 	return (
 		<section className="md:px-4 pt-10">
-			<div className="sm:p-10 md:pt-20 p-6 flex gap-y-1 flex-col md:sticky md:top-0 w-full">
+			<div className="sm:p-14 md:p-4 md:pt-20 p-6 flex gap-y-1 flex-col md:sticky md:top-0 w-full">
 				<h3 className="text-2xl sm:text-4xl font-light sm:leading-10 sm:tracking-wider">
 					{t("hero.h3")}
 				</h3>
@@ -72,9 +72,9 @@ export default function Hero({changeLanguage, lngs, i18n }: HeroProps) {
           <div>
         </div>
 				</div>
-				<div className="flex gap-2 justify-center sm:self-start mt-8">
+				<div className="flex gap-2 justify-center sm:self-start mt-8 ">
 					<HeroBtn onClick={downloadCv}>
-						<span className="hidden sm:block">{t("hero.downloadBtn")}</span>
+						<span>{t("hero.downloadBtn")}</span>
 						{downladSVG}
 					</HeroBtn>
 					<HeroBtn onClick={sendEmail}>
