@@ -1,5 +1,6 @@
 import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
+import LanguageSwitch from "../languageSwitch/LanguageSwitch";
 import HeroBtn from "./ui/HeroBtn";
 import { i18n, t } from "i18next";
 
@@ -27,7 +28,7 @@ const contactSVG = (
 	</svg>
 );
 
-interface HeroProps {
+export interface HeroProps {
   changeLanguage: (lng: string) => void;
   lngs: { [key: string]: { nativeName: string } };
   i18n: i18n;
@@ -58,7 +59,7 @@ export default function Hero({changeLanguage, lngs, i18n }: HeroProps) {
 					{t('hero.developer')}
 					</span>
 				</h2>
-				<div className="flex gap-2 mt-8">
+				<div className="flex gap-2 mt-8 items-center">
 					<a href="http://github.com/barrydilan">
 						<img src={github} className="w-8 h-8" alt="Github Link" />
 					</a>
@@ -67,17 +68,8 @@ export default function Hero({changeLanguage, lngs, i18n }: HeroProps) {
 					>
 						<img src={linkedin} className="w-8 h-8" alt="LinkedIn Link" />
 					</a>
+          <LanguageSwitch lngs={lngs} i18n={i18n} changeLanguage={changeLanguage} />
           <div>
-          {Object.keys(lngs).map((lng) => (
-        <button
-          key={lng}
-          style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }}
-          type="button"
-          onClick={() => changeLanguage(lng)}
-        >
-          {lngs[lng].nativeName}
-        </button>
-      ))}
         </div>
 				</div>
 				<div className="flex gap-2 justify-center sm:self-start mt-8">

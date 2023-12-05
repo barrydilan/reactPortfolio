@@ -22,6 +22,7 @@ export default {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'german-flag': "linear-gradient(rgb(0, 0, 0) 33.333%, rgb(255, 0, 0) 33.333%, rgb(255, 0, 0) 66.666%, rgb(255, 204, 0) 66.666%)",
     },
     fontFamily: {
       sans: ['Lato', 'sans-serif'],
