@@ -3,15 +3,15 @@
 @tailwind utilities;
 @layer base {
   html {
-    @apply text-primary sm:text-lg bg-main;
+    @apply bg-main text-primary sm:text-lg;
   }
-  
+
   h2 {
-    @apply text-primary-1 tracking-wider text-xl sm:text-2xl; 
+    @apply text-xl tracking-wider text-primary-1 sm:text-2xl;
   }
 
   strong {
-    @apply text-accent cursor-pointer hover:underline transition hover:underline-offset-4
+    @apply cursor-pointer text-accent transition hover:underline hover:underline-offset-4;
   }
 
   a {
@@ -19,19 +19,19 @@
   }
 
   ::selection {
-    @apply bg-accent text-main
+    @apply bg-accent text-main;
   }
 
   .hero-h2 {
-    @apply decoration-solid decoration-4 underline-offset-4 underline decoration-selection/0 text-primary/100
+    @apply text-primary/100 underline decoration-selection/0 decoration-solid decoration-4 underline-offset-4;
   }
 
   ::selection .hero-h2 {
-    @apply bg-main text-accent
+    @apply bg-main text-accent;
   }
 
   ::selection strong {
-    @apply bg-none
+    @apply bg-none;
   }
 }
 

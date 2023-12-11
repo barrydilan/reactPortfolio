@@ -1,0 +1,1 @@
+export const CV_URL = "https://drive.google.com/file/d/1788-FlwQUsHpotmiBixhVYfruzpg6Bnr/view";
