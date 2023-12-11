@@ -25,7 +25,7 @@ export interface HeroProps {
 
 export default function Hero({ changeLanguage, lngs, i18n }: HeroProps) {
   const downloadCv = () => {
-    window.open('/reactPortfolio/src/assets/cv-holubiev-harri.pdf', '_blank');
+    window.open('/reactPortfolio/assets/cv-holubiev-harri.pdf', '_blank');
   };
   const sendEmail = () => {
     const mailto = 'mailto:harry.holubiev@gmail.com';
