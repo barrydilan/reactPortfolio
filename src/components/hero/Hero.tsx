@@ -2,6 +2,7 @@ import { i18n, t } from 'i18next';
 
 import github from '../../assets/svg/github.svg';
 import linkedin from '../../assets/svg/linkedin.svg';
+import { CV_URL } from '../../shared/const';
 import LanguageSwitch from '../languageSwitch/LanguageSwitch';
 import HeroBtn from './ui/HeroBtn';
 
@@ -25,7 +26,7 @@ export interface HeroProps {
 
 export default function Hero({ changeLanguage, lngs, i18n }: HeroProps) {
   const downloadCv = () => {
-    window.open('/reactPortfolio/assets/cv-holubiev-harri.pdf', '_blank');
+    window.open(CV_URL, '_blank');
   };
   const sendEmail = () => {
     const mailto = 'mailto:harry.holubiev@gmail.com';
