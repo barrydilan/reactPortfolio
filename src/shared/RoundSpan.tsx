@@ -1,16 +1,16 @@
 interface IRoundSpan {
-	text: string;
+  text: string;
 }
 
 export default function RoundSpan(props: IRoundSpan) {
-	return (
-		<div
-			className="p-1 rounded-full inline-block hover:cursor-pointer"
-		>
-			<span className="rounded-full hover:cursor-pointer hover:text-primary-1 transition text-main inline-block text-center px-2 py-1 text-opacity-90 bg-accent relative text-sm text-purple-900
-      sm:text-sm md:px-4">
-				{props.text}
-			</span>
-		</div>
-	);
+  return (
+    <div className="inline-block rounded-full p-1 hover:cursor-pointer">
+      <span
+        className="text-purple-900 relative inline-block rounded-full bg-accent px-2 py-1 text-center text-sm text-main text-opacity-90 transition hover:cursor-pointer hover:text-primary-1
+      sm:text-sm md:px-4"
+      >
+        {props.text}
+      </span>
+    </div>
+  );
 }
