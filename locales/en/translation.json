@@ -1,0 +1,19 @@
+{
+  "about": {
+    "sectionTitle": "About me",
+    "content": "Hi, my name is Harry! I am a <strong>Frontend Web Developer</strong> based in <strong>Hamburg</strong>, Germany. My passion lies in coding, design, and technology, all geared towards creating exceptional user experiences.<br /> In 2022, I have graduated from a university with a Bachelor's degree in Mechanical Engineering. Since then, I've been on an exciting journey in the tech industry.<br />I speak <strong>English (C1)</strong>, and <strong>German (B1)</strong>, <strong>Russian</strong> and <strong>Ukrainian</strong> are my native languages."
+  },
+  "hero": {
+    "h3": "Hello, my name is",
+    "iAm": "I am a",
+    "developer": "Frontend Developer",
+    "downloadBtn": "Download CV",
+    "contactBtn": "Contact Me"
+  },
+  "projects": {
+    "sectionTitle": "Projects"
+  },
+  "technologies": {
+    "sectionTitle": "Technologies"
+  }
+}
