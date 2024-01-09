@@ -38,7 +38,7 @@ export default function ProjectCard(props: IProjectCardProps) {
         </div>
         <div className="mt-4">
           {props.technologies.map((technologie) => (
-            <RoundSpan text={technologie} />
+            <RoundSpan text={technologie} key={technologie} />
           ))}
         </div>
       </div>

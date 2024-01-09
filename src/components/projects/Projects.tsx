@@ -1,5 +1,6 @@
 import { t } from 'i18next';
 
+import graphiql from '../../assets/img/graphiql.png';
 import pickAMeal from '../../assets/img/pickAMeal.png';
 import sushiSushiImg from '../../assets/img/sushisushi.png';
 import wernerImg from '../../assets/img/werner.png';
@@ -7,6 +8,13 @@ import SectionTitle from '../../shared/SectionTitle';
 import ProjectCard from './ProjectCard';
 
 const PROJECTS = [
+  {
+    githubSrc: 'https://quiddlee.github.io/graphiql-app/',
+    title: 'Graphiql - GraphQl IDE',
+    text: 'GraphiQL: Your interactive GraphQL IDE, empowering website development with syntax highlighting, autocompletion, and dynamic documentation.',
+    imgSrc: graphiql,
+    technologies: ['React', 'Tailwind', 'TypeScript', 'Redux', 'React Router', 'Framer Motion'],
+  },
   {
     githubSrc: 'https://github.com/barrydilan/eCommerce-Application',
     title: 'SushiSushi - Online Food Delivery App',
@@ -36,7 +44,7 @@ export default function Projects() {
       <SectionTitle className="relative z-10 mb-0 pb-10">{t('projects.sectionTitle')}</SectionTitle>
       <ul className="mt-8 flex flex-col gap-y-4">
         {PROJECTS.map((project) => (
-          <a href={project.githubSrc}>
+          <a href={project.githubSrc} key={project.title}>
             <ProjectCard
               title={project.title}
               text={project.text}

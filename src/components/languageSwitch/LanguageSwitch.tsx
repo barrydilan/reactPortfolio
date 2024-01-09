@@ -9,14 +9,17 @@ export default function LanguageSwitch({ changeLanguage }: HeroProps) {
   const [chosenLanguage, setChosenLanguage] = useState('en');
 
   const hangleLanguageChange = () => {
-    setChosenLanguage(chosenLanguage === 'en' ? 'de' : 'en');
-    changeLanguage(chosenLanguage);
+    setChosenLanguage(prevLanguage => {
+      const newLanguage = prevLanguage === 'en' ? 'de' : 'en';
+      changeLanguage(newLanguage);
+      return newLanguage;
+    });
   };
 
   return (
     <LanguageBtn changeLanguage={hangleLanguageChange}>
       <div className="">
-        <img src={chosenLanguage === 'en' ? engFlag : deFlag} className="h-8 w-8" alt={chosenLanguage} />
+        <img src={chosenLanguage === 'en' ? deFlag : engFlag} className="h-8 w-8" alt={chosenLanguage} />
       </div>
     </LanguageBtn>
   );
